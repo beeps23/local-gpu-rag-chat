@@ -199,8 +199,8 @@ Tested and ruled out so far: whether the backend window is in the foreground. Re
 ### Install
 
 ```powershell
-git clone <REPO-URL>
-cd rag-chat-app
+git clone https://github.com/beeps23/local-gpu-rag-chat.git
+cd local-gpu-rag-chat
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install torch --index-url https://download.pytorch.org/whl/cu128
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
