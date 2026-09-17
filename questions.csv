@@ -1,0 +1,31 @@
+﻿question,type,expected_source,context_phrase,answer_keywords
+Which embedding model does the chat assistant use?,answerable,project_brief.md,all-MiniLM-L6-v2,MiniLM
+Which language model generates answers in the chat assistant?,answerable,project_brief.md,Qwen2.5-1.5B-Instruct,Qwen
+What GPU does the local RAG chatbot run on?,answerable,project_brief.md,RTX 5060,5060
+What does the cross-encoder reranker do in the chat assistant?,answerable,project_brief.md,reads the question and candidate chunk together,together|jointly|pair
+What does the chat assistant's LLM Ops logging record?,answerable,project_brief.md,retrieval latency,latency
+What file types can users upload to the chat assistant?,answerable,project_brief.md,"TXT, Markdown, or PDF",PDF
+Why does the chat assistant use vector retrieval before reranking?,answerable,project_brief.md,Vector retrieval is fast,fast|quick|speed
+Why does the chat assistant run the model locally instead of calling a cloud API?,answerable,project_brief.md,paid cloud API,priva|offline|self-contained|cost|paid
+How is the chat assistant tested?,answerable,project_brief.md,uploading this brief,upload
+What future improvements are planned for the chat assistant?,answerable,project_brief.md,conversational memory,memory
+How many days of paid annual leave do Northwind employees get?,answerable,northwind_handbook.md,26 days of paid annual leave,26
+What GPU do Northwind engineers get in their laptops?,answerable,northwind_handbook.md,RTX 4070,4070
+How much is the Northwind learning budget per year?,answerable,northwind_handbook.md,"learning budget of 1,200 euros",1200
+How long is parental leave at Northwind?,answerable,northwind_handbook.md,Parental leave is 20 weeks,20 weeks|twenty weeks
+What is the daily meal reimbursement limit during Northwind business travel?,answerable,northwind_handbook.md,55 euros per day,55
+Which password manager does Northwind use?,answerable,northwind_handbook.md,Vaultkeep,Vaultkeep
+How many days per week can Northwind employees work remotely?,answerable,northwind_handbook.md,three days per week,three|3
+How long does the Northwind onboarding buddy program last?,answerable,northwind_handbook.md,first 60 days,60
+How many GPU worker nodes does the orbit-prod cluster have?,answerable,orbit_platform_runbook.md,12 GPU worker nodes,12|twelve
+What is the p95 latency target for text generation requests in Orbit?,answerable,orbit_platform_runbook.md,4 seconds for text generation,4 seconds|four seconds|4s|4 s
+How long are Orbit logs kept?,answerable,orbit_platform_runbook.md,kept for 30 days,30
+What percentage of traffic does a new model version receive first in an Orbit canary deployment?,answerable,orbit_platform_runbook.md,5 percent of traffic,5 percent|5%|five percent
+Which command rolls back an Orbit deployment?,answerable,orbit_platform_runbook.md,orbitctl rollback,orbitctl
+How quickly must the primary Orbit on-call engineer acknowledge a page?,answerable,orbit_platform_runbook.md,within 10 minutes,10 minutes|ten minutes
+What is the maximum number of inference workers in Orbit production?,answerable,orbit_platform_runbook.md,maximum of 40 workers,40|forty
+What is the WiFi password for the Northwind office?,unanswerable,,,
+Who is the CEO of Northwind Robotics?,unanswerable,,,
+What version of Kubernetes does the Orbit platform run?,unanswerable,,,
+How much does the RTX 5060 laptop cost?,unanswerable,,,
+What is the capital of France?,unanswerable,,,

@@ -1,0 +1,9 @@
+Local GPU RAG Chat Project
+
+This application is a local document question-answering system. It uses a Streamlit frontend and a FastAPI backend. Users upload text, Markdown, or PDF files. The backend splits each document into overlapping chunks and converts them to embeddings using all-MiniLM-L6-v2. FAISS performs similarity retrieval.
+
+Before generation, a cross-encoder reranks retrieved chunks so the most relevant evidence is selected. The selected chunks are inserted into the prompt as context. A Qwen 2.5 1.5B Instruct model, downloaded from Hugging Face and run on the local NVIDIA GPU, generates the answer.
+
+LLM Ops is provided through structured request logging. Each successful request receives a request ID and records retrieval time, generation time, total latency, source files, and status. This makes the system observable and easier to debug.
+
+Evaluation idea: ask questions whose answers appear in the uploaded project notes. Verify that the response cites the correct source file in the RAG sources panel. If the answer is not represented in the documents, the assistant should say that the context does not contain it.

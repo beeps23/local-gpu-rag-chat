@@ -1,0 +1,12 @@
+# Install PyTorch with CUDA first (see README):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+fastapi
+uvicorn[standard]
+streamlit
+requests
+transformers
+accelerate
+sentence-transformers
+faiss-cpu
+pypdf
+python-multipart
