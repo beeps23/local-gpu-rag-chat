@@ -3,6 +3,7 @@
 **A private document Q&A assistant that runs entirely on a laptop GPU.** Upload a TXT, Markdown, or PDF file, ask questions about it, and get answers grounded in your documents, with the source chunks, rerank scores, and a full latency and token breakdown shown for every answer.
 
 Built with FastAPI, Streamlit, FAISS, a cross-encoder reranker, and `Qwen2.5-1.5B-Instruct` running locally on an NVIDIA GeForce RTX 5060 Laptop GPU. No paid APIs, and no document data leaves the machine.
+
 ---
 
 ## Results at a glance
